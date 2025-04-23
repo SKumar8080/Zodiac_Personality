@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🪐 Desi Rashi Vibes</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🔮 Discover Your Zodiac Personality</h1>
+    <p style="font-style: italic; color: rgba(255, 255, 255, 0.5); font-size: 0.9rem;">
+  An experiment by Skumar ✨
+</p>
+
+    <button id="langToggle">Switch to Hindi 🇮🇳</button>
+
+    <div class="rashi-grid">
+      <button data-rashi="mesh">Mesh (Aries)</button>
+      <button data-rashi="vrishabh">Vrishabh (Taurus)</button>
+      <button data-rashi="mithun">Mithun (Gemini)</button>
+      <button data-rashi="karka">Karka (Cancer)</button>
+      <button data-rashi="singh">Singh (Leo)</button>
+      <button data-rashi="kanya">Kanya (Virgo)</button>
+      <button data-rashi="tula">Tula (Libra)</button>
+      <button data-rashi="vrishchik">Vrishchik (Scorpio)</button>
+      <button data-rashi="dhanu">Dhanu (Sagittarius)</button>
+      <button data-rashi="makar">Makar (Capricorn)</button>
+      <button data-rashi="kumbh">Kumbh (Aquarius)</button>
+      <button data-rashi="meen">Meen (Pisces)</button>
+    </div>
+
+    <div id="resultBox" class="result-box"></div>
+    <button id="moreBtn" style="display:none;">🔍 Know More About You</button>
+    <div id="deepDiveBox" class="deep-dive-box"></div>
+    <button id="shareBtn" style="display:none;">📤 Share on WhatsApp</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+<link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>

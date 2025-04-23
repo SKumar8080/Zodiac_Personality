@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0f11;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+#langToggle {
+  background: #2f3542;
+  color: #fff;
+  padding: 8px 16px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.rashi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.rashi-grid button {
+  padding: 1rem;
+  border: none;
+  background: #1e272e;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.rashi-grid button:hover {
+  background: #485460;
+}
+
+.result-box, .deep-dive-box {
+  background: #1e1e2e;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #cafff5;
+}
+
+#moreBtn, #shareBtn {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background: #ffdd00;
+  color: #1b1e22;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#moreBtn:hover, #shareBtn:hover {
+  background: #ffd700;
+}
