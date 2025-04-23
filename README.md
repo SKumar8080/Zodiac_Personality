@@ -1,14 +1,16 @@
-# Run and deploy your AI Studio app
+# 🔮 Zodiac Personality App
 
-This contains everything you need to run your app locally.
+A fun, interactive astrology app to explore your Rashi (zodiac) traits — in Hindi and English! 
 
-## Run Locally
+✨ Features:
+- Personality traits based on Indian Rashis
+- Toggle between Hindi and English
+- “Know More” random traits
+- WhatsApp sharing
+- Local storage memory
+- Mobile responsive design
 
-**Prerequisites:**  Node.js
+📱 [Live Demo Here](https://skumar8080.github.io/Zodiac_Personality/)
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Made with 💻 HTML + CSS + TypeScript  
+An experiment by **Skumar** ✨
